@@ -4,8 +4,14 @@
   padding: 0px;
 }
 
+body {
+  background-image: url("./bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header {
-  color: gray;
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -14,14 +20,14 @@ header {
   font-size: 20px;
 }
 
-.header > p {
+header > p {
   font-size: 20px;
-  color: rgb(93, 93, 93);
+  color: rgb(255, 255, 255);
 }
 
 .navigator > a {
   margin: 20px;
-  color: rgb(93, 93, 93);
+  color: rgb(255, 255, 255);
 }
 
 div {
