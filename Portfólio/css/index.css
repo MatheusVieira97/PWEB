@@ -1,0 +1,71 @@
+@import url('./header.css');
+@import url('./apresentação.css');
+@import url('./about.css');
+@import url('./projects.css');
+@import url('./tech.css');
+@import url('./footer.css');
+
+/*Fonts: Poppins => 200/400/600*/
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    /*Background Color Header*/
+    --BgColor: #ffffff;
+
+    /*Background Color Gray*/
+    --BgColor2: #FAFAFA;
+
+    /*Menu Background Color*/
+    --MenuColor: #4070F4;
+
+    /*Buttons Color*/
+    --btnColor: #4070F4;
+
+    /*Font color white*/
+    --FontColorButton: #ffffff;
+
+    /*Container Shadow*/
+    --Shadow: #cacaca;
+
+    /*Font color Tittles*/
+    --fontColorTittle: #0E2431;
+
+    /*Font color for p's*/
+    --fontColorP: #3d3d3d;
+}
+
+.dark:root {
+    /*Background Color Header Gray*/
+    --BgColor: #232323;
+
+    /*Background Color Black*/
+    --BgColor2: #191919;
+
+    /*Menu Background Color*/
+    --MenuColor: #424242;
+
+    /*Buttons Color*/
+    --btnColor: #4070f4;
+
+    /*Font color buttons*/
+    --FontColorButton: #ffffff;
+
+    /*Container Shadow*/
+    --Shadow: #747474;
+
+    /*Font color Tittles*/
+    --fontColorTittle: #EEEEEE;
+
+    /*Font color for p's*/
+    --fontColorP: #F8F8F8;
+}
+
+body {
+    overflow-x: hidden;
+}

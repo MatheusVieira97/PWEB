@@ -1,0 +1,50 @@
+@import url('./index.css');
+
+header {
+    width:100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: var(--BgColor);
+    color: var(--fontColorTittle);
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+.menu { 
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    background-color: var(--MenuColor);
+    right: 0px;
+    top: 7vh;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+.menu-active {
+    transform: translateX(0%);
+}
+
+.btn-Menu {
+    cursor: pointer;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10% 0% 40%;
+    font-size:1.5em;
+}
+
+.navLinks li {
+    list-style: none;
+}

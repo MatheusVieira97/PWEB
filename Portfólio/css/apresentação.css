@@ -1,0 +1,45 @@
+@import url('./index.css');
+
+/*Apresentação*/
+.apresentation {
+    background-color: var(--BgColor);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--fontColorP)
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h2 > span {
+    font-size:1.6em;
+    color: var(--fontColorTittle);
+}
+
+.myGit {
+    margin-top: 30px;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 1em;
+    color: var(--FontColorButton);
+    background-color: var(--btnColor);
+}
+
+.myGit > i {
+    font-size: 30px ;
+}
+
+
+
+
