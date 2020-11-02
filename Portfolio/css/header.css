@@ -41,10 +41,31 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 10% 0% 40%;
+    margin: 10% 0% 20%;
     font-size:1.5em;
 }
 
 .navLinks li {
     list-style: none;
+}
+
+
+@media screen and (min-width: 720px) {
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .btn-Menu {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .btn-Menu {
+        font-size: 1.6em;
+    }
 }

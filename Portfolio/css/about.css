@@ -1,0 +1,93 @@
+@import url('./index.css');
+
+.about {
+    height: 100vh;
+    background-color: var(--BgColor2);
+    color: var(--fontColorP);
+}
+
+.about > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+h3 {
+    font-size: 1.6em;
+    padding-top: 10px;
+    color: var(--fontColorTittle);
+}
+
+.myLinkedIn {
+    margin: 20px 0px 10px;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    font-size: 1em;
+    color: var(--FontColorButton);
+    background-color: var(--btnColor);
+}
+
+.myLinkedIn > i {
+    font-size: 30px ;
+}
+
+.about > img {
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    h3 {
+        font-size: 2em;
+    }
+
+    .about > div {
+        height: 100%;
+        padding: 0px 60px;
+        font-size: 1.6em;
+    }
+
+    .myLinkedIn {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about {
+        height: 100vh;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .about > div {
+        height: 100%;
+        width: 60%;
+        padding: 30px;
+        margin: 0px;
+        font-size: 1.4em;
+    }
+
+    .about> img {
+        display: block;
+        width: 40%;
+        height: 100vh;
+        object-fit: contain;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    .myLinkedIn {
+        display: inline;
+        font-size: 0.8em;
+    }
+}
