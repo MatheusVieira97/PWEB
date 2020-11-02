@@ -6,7 +6,7 @@ const navSlide = () => {
     //Onclick do icon do menu
     iconMenu.addEventListener('click', () => {
         nav.classList.toggle('menu-active');
-    })
+    });
 }
 navSlide();
 
